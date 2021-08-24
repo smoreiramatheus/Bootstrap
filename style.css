@@ -1,46 +1,52 @@
 @import url('https://fonts.googleapis.com/css2?family=Alumni+Sans&display=swap');
-
-body{
+body {
     background-image: url(assets/img/fundo3.jpg);
     background-size: cover;
-    
 }
 
-#fundoContainer{
+#fundoContainer {
     background-color: rgba(0, 0, 0, 0.8) !important;
 }
 
 /* INDEX */
 
-
-h1{
+h1 {
     font-size: 55px;
     font-family: 'Alumni Sans', sans-serif;
 }
 
-#paragrafo{
+#paragrafo {
     font-family: 'Alumni Sans', sans-serif;
     font-size: 20px;
 }
-#abstract{
+
+#abstract {
     display: block;
     margin-left: auto;
     margin-right: auto;
     width: 50vw;
 }
 
+#lk {
+    font-size: 250%;
+    
+}
+
+#gh {
+    font-size: 250%;
+}
+
 /* INDEX */
 
 /* SOBRE */
 
-#bloco1{
+#bloco1 {
     display: flex;
     justify-content: center;
 }
 
-#bloco1 img{
+#bloco1 img {
     width: 40%;
 }
+
 /*SOBRE*/
-
-

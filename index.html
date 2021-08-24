@@ -11,15 +11,58 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
         integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
-    
+    <script src="https://kit.fontawesome.com/81a2ff26a4.js" crossorigin="anonymous"></script>
+
 
 </head>
 
 <body class=" bg-dark">
+    <header>
+        <nav class="navbar navbar-dark bg-dark">
+            <a type="button" class="  navbar-brand text-light" href="index.html">Matheus Moreira</a>
+            <div class="mr-3 btn-group" role="group" aria-label="botoes principais">
+                <a type="button" class="btn btn-dark" href="sobre.html">Sobre</a>
+                <a type="button" class="btn btn-dark" href="#cardes">Linguagens</a>
+                <a type="button" class="btn btn-dark" href="#abstract">Portifólio</a>
+                <a type="button" class="btn btn-dark" href="#contato">Contato</a>
 
+            </div>
+        </nav>
+    </header>
 
 
     <div class="container text-light text-center mt-5 rounded" id="fundoContainer">
+
+
+        <div>
+            <div id="carouselExampleFade" class="carousel slide carousel-fade pt-5" data-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img class="d-block w-70 mx-auto rounded"
+                            src="https://images.unsplash.com/photo-1568772585407-9361f9bf3a87?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=750&q=80"
+                            alt="Primeiro Slide">
+                    </div>
+                    <div class="carousel-item">
+                        <img class="d-block w-10 mx-auto rounded"
+                            src="https://images.unsplash.com/photo-1481887328591-3e277f9473dc?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=760&q=80"
+                            alt="Segundo Slide">
+                    </div>
+                    <div class="carousel-item">
+                        <img class="d-block w-70 mx-auto rounded"
+                            src="https://images.unsplash.com/photo-1542831371-29b0f74f9713?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80"
+                            alt="Terceiro Slide">
+                    </div>
+                </div>
+                <a class="carousel-control-prev" href="#carouselExampleFade" role="button" data-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Anterior</span>
+                </a>
+                <a class="carousel-control-next" href="#carouselExampleFade" role="button" data-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Próximo</span>
+                </a>
+            </div>
+        </div>
 
         <div class="pt-3">
             __________________________________________________________________________________________________________
@@ -27,38 +70,117 @@
         <div class="mt-4 mb-4" id="abstract">
             <h1>MATHEUS MOREIRA</h1>
             <p class="text-uppercase" id="paragrafo">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis minima harum asperiores porro quam,
-                eius atque! Vel laboriosam ad tenetur libero. Aperiam ratione odio numquam voluptatibus nihil eius deleniti.
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis minima harum asperiores porro
+                quam,
+                eius atque! Vel laboriosam ad tenetur libero. Aperiam ratione odio numquam voluptatibus nihil eius
+                deleniti.
                 Cupiditate.
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis minima harum asperiores porro quam,
-                eius atque! Vel laboriosam ad tenetur libero. Aperiam ratione odio numquam voluptatibus nihil eius deleniti.
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis minima harum asperiores porro
+                quam,
+                eius atque! Vel laboriosam ad tenetur libero. Aperiam ratione odio numquam voluptatibus nihil eius
+                deleniti.
                 Cupiditate.
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis minima harum asperiores porro quam,
-                eius atque! Vel laboriosam ad tenetur libero. Aperiam ratione odio numquam voluptatibus nihil eius deleniti.
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis minima harum asperiores porro
+                quam,
+                eius atque! Vel laboriosam ad tenetur libero. Aperiam ratione odio numquam voluptatibus nihil eius
+                deleniti.
                 Cupiditate.
-            </p> 
+            </p>
         </div>
 
-        <div>
+        <div id="cardes">
             __________________________________________________________________________________________________________
         </div>
 
 
-        <div class="mt-5 btn-group" role="group" aria-label="botoes principais">
-            <a type="button" class="btn btn-outline-light" href="sobre.html">Sobre</a>
-            <button type="button" class="btn btn-outline-light">Carreira</button>
-            <button type="button" class="btn btn-outline-light">Hobbies</button>
-            <button type="button" class="btn btn-outline-light">Contato</button>
-        </div>
-        <footer>
+        <section class="mt-5">
+            <div class="card-deck">
+                <div class="card bg-dark">
+                    <img class="card-img-top" src="assets/img/1.png" alt="Imagem de capa do card">
+                    <div class="card-body">
+                        <h5 class="card-title">Java</h5>
+                        <p class="card-text">Java é uma linguagem de programação orientada a objetos desenvolvida na
+                            década de 90 por uma equipe de programadores chefiada por James Gosling, na empresa Sun
+                            Microsystems.</p>
+                        <p class="card-text"><small class="text-muted">Atualizados 3 minutos atrás</small></p>
+                    </div>
+                </div>
+                <div class="card bg-dark">
+                    <img class="card-img-top" src="assets/img/2.png" alt="Imagem de capa do card">
+                    <div class="card-body">
+                        <h5 class="card-title">Python</h5>
+                        <p class="card-text">Python é uma linguagem de programação de alto nível, interpretada de
+                            script, imperativa, orientada a objetos, funcional, de tipagem dinâmica e forte. Foi lançada
+                            por Guido van Rossum em 1991.</p>
+                        <p class="card-text"><small class="text-muted">Atualizados 3 minutos atrás</small></p>
+                    </div>
+                </div>
+                <div class="card bg-dark">
+                    <img class="card-img-top" src="assets/img/3.png" alt="Imagem de capa do card">
+                    <div class="card-body">
+                        <h5 class="card-title">SQL</h5>
+                        <p class="card-text">Structured Query Language, ou Linguagem de Consulta Estruturada ou SQL, é a
+                            linguagem de pesquisa declarativa padrão para banco de dados relacional. Muitas das
+                            características originais do SQL foram inspiradas na álgebra relacional</p>
+                        <p class="card-text"><small class="text-muted">Atualizados 3 minutos atrás</small></p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <br>
+
+        <section class="mt-5">
+            <h1>Entenda o que faz um ciêntista de dados</h1>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/FdbFRrcU4Y0"
+                title="YouTube video player" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen></iframe>
+        </section>
+        <footer id="contato">
+            <br>
+            <h1 class="text-left mt-5">Contato</h1>
+
+            <form>
+                <div class="form-group">
+
+                    <input type="nome" class="form-control" id="nome" placeholder="Nome completo"
+                        onkeyup="validaNome()">
+                    <div id="txtNome"></div>
+                </div>
+
+                <div class="form-group">
+                    <input type="email" class="form-control" id="email" placeholder="E-mail" onkeyup="validaEmail()">
+                    <div id="txtEmail"></div>
+                </div>
+
+                <div class="form-group">
+                    <input type="mensagem" class="form-control" id="mensagem" placeholder="Mensagem"
+                        onkeyup="validaMensagem()">
+                    <div id="txtMensagem"></div>
+                </div>
+
+                <button type="submit" class="btn btn-primary">Enviar</button>
+            </form>
+
+            <div class="mt-5">
+                <a href="https://www.linkedin.com/in/moreirasmatheus/" target="_blank"><i
+                        class="fab fa-linkedin text-light m-3 " id="lk"></i> </a>
+                <a href="https://github.com/smoreiramatheus"> <i class="fab fa-github-square m-3" id="gh"></i></a>
+
+            </div>
+
+
+
+
             <div class="mt-5 font-weight-light">
-                <small>Developed by <a href="https://www.linkedin.com/in/moreirasmatheus/" target="_blank" class="text-light"> <ins>Matheus Moreira</ins> </a>&copy</small>
+                <small>Developed by <a href="https://www.linkedin.com/in/moreirasmatheus/" target="_blank"
+                        class="text-light"> <ins>Matheus Moreira</ins> </a>&copy</small>
             </div>
         </footer>
 
     </div>
 
-
+    <script src="assets/js/script.js"></script>
     <!--Abaixo segue SCRIPTS necessários para utilização dos códigos JS do Bootstrap-->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
         integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
